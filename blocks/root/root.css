@@ -1,6 +1,9 @@
 .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #2A2C2F;
-    font-family: 'Arial', sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;

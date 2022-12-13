@@ -1,0 +1,9 @@
+.photos__item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .photos__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+}
