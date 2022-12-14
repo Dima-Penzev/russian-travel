@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+    .location {
+         max-width: 90vw;
+         margin: 0 auto;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 48px 28px;
+         justify-items: start;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .location {
+        column-gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .location {
+        column-gap: 40px;
+    }
+}

@@ -1,0 +1,27 @@
+.location__text {
+    margin: 0 auto;
+    max-width: 90vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #FFFFFF;
+}
+
+.location__text:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .location__text {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .location__text {
+        font-size: 18px;
+    }
+}

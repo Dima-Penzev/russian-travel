@@ -1,4 +1,12 @@
 .lead__image {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
+
+/* @media screen and (min-width: 1024px) {
+    .lead__image {
+        max-width: 90vw;
+        
+    }
+} */
+
