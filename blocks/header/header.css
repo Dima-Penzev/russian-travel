@@ -3,11 +3,11 @@
     justify-content: space-between;
     padding-top: 16px;
     width: 90vw;
+    max-width: 1184px;
     border: 1px solid red;
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
     .header {
-        max-width: 1184px;
     }
-}
+} */
