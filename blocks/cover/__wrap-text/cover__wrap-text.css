@@ -1,14 +1,18 @@
 .cover__wrap-text {
     position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 288px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
     z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* opacity: .3; */
+    background: rgba(42, 44, 47, .3);
 }
 
-@media screen and (min-width: 768px) {
-    .cover__wrap-text {
-        min-width: 560px;
-    }
+.cover__wrap-text:hover {
+    /* opacity: .8; */
+    background: rgba(42, 44, 47, .8);
 }
