@@ -1,4 +1,6 @@
 .cover__link {
     display: block;
-    text-decoration: none; 
+    text-decoration: none;
+    max-width: 1184px;
+    margin: 0 auto; 
 }

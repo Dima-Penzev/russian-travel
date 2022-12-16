@@ -1,12 +1,10 @@
-.places__list {
-    list-style: none;
+.lead__wrap {
     margin: 0 auto;
-    padding: 0;
     max-width: 928px;
 }
 
 @media screen and (min-width: 1280px) {
-    .places__list {
+    .lead__wrap {
         max-width: 984px;
     }
 }

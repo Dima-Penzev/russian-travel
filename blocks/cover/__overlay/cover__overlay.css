@@ -1,4 +1,4 @@
-.cover__wrap-text {
+.cover__overlay {
     position: absolute; 
     top: 0;
     left: 0;
@@ -8,11 +8,4 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* opacity: .3; */
-    background: rgba(42, 44, 47, .3);
-}
-
-.cover__wrap-text:hover {
-    /* opacity: .8; */
-    background: rgba(42, 44, 47, .8);
 }

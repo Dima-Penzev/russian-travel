@@ -1,12 +1,12 @@
-.accent {
+.location__link_decor_underline {
     color: #FFFFFF;
     position: relative;
 }
     
-.accent::after {
+.location__link_decor_underline::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: 1;
     left: 0;
     display: block;
     width: 100%;

@@ -1,10 +1,10 @@
 .intro__article {
     margin: 0 auto;
-    width: 90vw;
+    max-width: 928px;
     } 
 
-@media screen and (min-width: 1024px) {
-    .intro__article {
-        max-width: 100%;
+    @media screen and (min-width: 1280px) {
+        .intro__article {
+            max-width: 984px;
+        }
     }
-}

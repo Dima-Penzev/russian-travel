@@ -1,0 +1,7 @@
+.cover__overlay_hover_on {
+    background: rgba(42, 44, 47, .3);
+}
+
+.cover__overlay_hover_on:hover {
+    background: rgba(42, 44, 47, .8);
+}

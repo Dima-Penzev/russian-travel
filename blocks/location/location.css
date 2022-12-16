@@ -1,7 +1,6 @@
 @media screen and (min-width: 768px) {
     .location {
-         max-width: 90vw;
-         margin: 0 auto;
+         margin: 0;
          display: grid;
          grid-template-columns: 1fr 1fr;
          gap: 48px 28px;

@@ -1,0 +1,15 @@
+.header__lang-link_active_true {
+    color: #FFFFFF;
+    position: relative;
+}
+    
+.header__lang-link_active_true::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;   
+    background-color: #FFFFFF;
+}

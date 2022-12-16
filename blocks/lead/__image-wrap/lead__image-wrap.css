@@ -1,11 +1,4 @@
 .lead__image-wrap {
    margin: 0 auto;
-   max-width: 100vw;
-}
-
-@media screen and (min-width: 1024px) {
-   .lead__image-wrap {
-       max-width: 90vw;
-       
-   }
+   max-width: 100%;
 }
