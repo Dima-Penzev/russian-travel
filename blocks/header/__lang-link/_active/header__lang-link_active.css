@@ -1,12 +1,11 @@
-.location__link_decor_underline {
-    color: #FFFFFF;
+.header__lang-link_active {
     position: relative;
 }
     
-.location__link_decor_underline::after {
+.header__lang-link_active::after {
     content: "";
     position: absolute;
-    bottom: 1;
+    bottom: 0;
     left: 0;
     display: block;
     width: 100%;

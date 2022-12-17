@@ -7,7 +7,7 @@
   <title>Путешествия по России</title> 
 </head>
 <body>
-  <div class="page">
+  <div class="root">
     <header class="header">
       <div class="header__wrap">
         <a href="#">
@@ -15,7 +15,7 @@
         </a>
         <ul class="header__lang-list">
           <li class="header__lang-item">
-            <a class="header__lang-link header__lang-link_active_true fading" href="#">Ru</a>
+            <a class="header__lang-link header__lang-link_active fading" href="#">Ru</a>
           </li>
           <li class="header__lang-item">
             <a class="header__lang-link fading" href="#">En</a>
@@ -34,101 +34,77 @@
           </figure>
         </div>
       </section>
-      <div class="intro">
-        <article class="intro__article">
+      <section class="intro">
+        <div class="intro__article">
           <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
-            <li>
-              <p class="intro__list-unit">Часовых поясов <span class="intro__weight-normal">11</span></p>
+            <li class="intro__list-unit">
+              Часовых поясов <span class="intro__weight-normal">11</span>
             </li>
-            <li>
-              <p class="intro__list-unit">Объектов природного наследия ЮНЕСКО <span class="intro__weight-normal">12</span></p>
+            <li class="intro__list-unit">
+              Объектов природного наследия ЮНЕСКО <span class="intro__weight-normal">12</span>
             </li>
-            <li>
-              <p class="intro__list-unit">Объектов культурного наследия ЮНЕСКО <span class="intro__weight-normal">16</span></p>
+            <li class="intro__list-unit">
+              Объектов культурного наследия ЮНЕСКО <span class="intro__weight-normal">16</span>
             </li>
-            <li>
-              <p class="intro__list-unit">Природных заповедников <span class="intro__weight-normal">105</span></p>
+            <li class="intro__list-unit">
+              Природных заповедников <span class="intro__weight-normal">105</span>
             </li>
-            <li>
-              <p class="intro__list-unit">Аэропортов <span class="intro__weight-normal">241</span></p>
+            <li class="intro__list-unit">
+              Аэропортов <span class="intro__weight-normal">241</span>
             </li>
           </ul>
-        </article>
-      </div>
-      <div class="photos">
+        </div>
+      </section>
+      <section class="photos">
         <ul class="photos__list">
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-train.jpg" alt="вид из окна поезда">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-train.jpg" alt="вид из окна поезда">            
+          </li>
+          <li class="photos__item">            
+            <img class="photos__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="вид заснеженной горы сверху">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="вид заснеженной горы сверху">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-tuman.jpg" alt="собака стоящая на стоге сена">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-tuman.jpg" alt="собака стоящая на стоге сена">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-sochi.jpg" alt="ели в тумане">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-sochi.jpg" alt="ели в тумане">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-arisa.jpg" alt="колесо авто стоящего на льду">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-arisa.jpg" alt="колесо авто стоящего на льду">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-baikal.jpg" alt="берег озера байкал">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-baikal.jpg" alt="берег озера байкал">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-elbrus.jpg" alt="заснеженная вершина горы эльбрус">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-elbrus.jpg" alt="заснеженная вершина горы эльбрус">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-kondratiev.jpg" alt="дорожный знак пешеходный переход">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-kondratiev.jpg" alt="дорожный знак пешеходный переход">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-kamchatka-1.jpg" alt="горы камчатки">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-kamchatka-1.jpg" alt="горы камчатки">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-kamchatka-2.jpg" alt="заснеженная гора камчатки">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-kamchatka-2.jpg" alt="заснеженная гора камчатки">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-baikal-2.jpg" alt="скалы у берега байкала">
           </li>
           <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-baikal-2.jpg" alt="скалы у берега байкала">
-            </a>
-          </li>
-          <li class="photos__item">
-            <a class="fading" href="#">
-              <img class="photos__image" src="./images/photo-grid-ergaki.jpg" alt="горные вершины в тумане">
-            </a>
+            <img class="photos__image" src="./images/photo-grid-ergaki.jpg" alt="горные вершины в тумане">
           </li>
         </ul>
-      </div>
-      <div class="places">
+      </section>
+      <section class="places">
         <ul class="places__list">
           <li class="places__item">
             <article class="location">
               <h2 class="location__title">Куршская коса</h2>
               <div class="location__wrap-link">
                 <p class="location__url-link">url</p>
-                <a class="location__link location__link_decor_underline fading" href="http://park-kosa.ru">park-kosa.ru</a>
+                <a class="location__link fading" href="http://park-kosa.ru">park-kosa.ru</a>
               </div>
               <img class="location__image" src="./images/place-kosa.jpg" alt="фото куршской косы">
               <div>
@@ -144,7 +120,7 @@
               <h2 class="location__title">Кольский</h2>
               <div class="location__wrap-link">
                 <p class="location__url-link">url</p>
-                <a class="location__link location__link_decor_underline fading" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                <a class="location__link fading" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
               </div>
               <img class="location__image" src="./images/place-kolsky.jpg" alt="фото Кольский">
               <div>
@@ -158,7 +134,7 @@
               <h2 class="location__title">Алтай</h2>
               <div class="location__wrap-link">
                 <p class="location__url-link">url</p>
-                <a class="location__link location__link_decor_underline fading" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube
+                <a class="location__link fading" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube
                 </a>
               </div>
               <img class="location__image" src="./images/place-altai.jpg" alt="фото ноутбука на фоне природы">
@@ -173,7 +149,7 @@
               <h2 class="location__title">Зимний Байкал</h2>
               <div class="location__wrap-link">
                 <p class="location__url-link">url</p>
-                <a class="location__link location__link_decor_underline fading" href="https://vk.com/baikalmile">https://vk.com/baikalmile
+                <a class="location__link fading" href="https://vk.com/baikalmile">https://vk.com/baikalmile
                 </a>
               </div>
               <img class="location__image" src="./images/place-winter-baikal.jpg" alt="фото зимнего озера Байкал">
@@ -190,7 +166,7 @@
               <h2 class="location__title">Карелия</h2>
               <div class="location__wrap-link">
                 <p class="location__url-link">url</p>
-                <a class="location__link location__link_decor_underline fading" href="http://vodlozero.ru">http://vodlozero.ru/
+                <a class="location__link fading" href="http://vodlozero.ru">http://vodlozero.ru/
                 </a>
               </div>
               <img class="location__image" src="./images/place-karelia.jpg" alt="фото зимнего озера Байкал">
@@ -200,21 +176,18 @@
             </article>
           </li>
         </ul>
-      </div>
+      </section>
       <section class="cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <div class="cover__wrap-content">
-              <img class="cover__image" src="./images/cover-trains.jpg" alt="изображение железнодорожных вагонов">
-              <div class="cover__overlay cover__overlay_hover_on">
-                <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <p class="cover__text">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-              </div>
-            </div>
+          <div class="cover__overlay">
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__text">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          </div>    
         </a>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__wrap">
+      <nav class="footer__wrap">
         <ul class="footer__list">
           <li class="footer__item">
             <a class="footer__link fading" href="https://yandex.ru/maps">Карты</a>
@@ -233,7 +206,7 @@
           </li>
         </ul>
         <p class="footer__copyright">&copy; 2022. Дмитрий Пензев</p>
-      </div>
+      </nav>
     </footer>
   </div>
 </body>

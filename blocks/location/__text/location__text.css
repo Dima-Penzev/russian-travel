@@ -1,6 +1,8 @@
 .location__text {
     margin: 0;
-    font-family: 'Inter';
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -10,6 +12,13 @@
 
 .location__text:not(:last-child) {
     margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .location__text {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media screen and (min-width: 1024px) {

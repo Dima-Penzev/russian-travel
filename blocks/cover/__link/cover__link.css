@@ -2,5 +2,10 @@
     display: block;
     text-decoration: none;
     max-width: 1184px;
-    margin: 0 auto; 
+    aspect-ratio: 8 / 5;
+    margin: 0 auto;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
 }

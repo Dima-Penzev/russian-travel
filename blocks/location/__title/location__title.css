@@ -1,16 +1,21 @@
 .location__title {
     margin: 0;
     margin-bottom: 32px;
-    font-family: 'Inter';
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
-    line-height: 1.1;
+    line-height: 1.09;
     color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) {
     .location__title {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0;
         font-size: 42px;
     }
 }
